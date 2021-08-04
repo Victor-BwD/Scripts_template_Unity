@@ -1,2 +1,1 @@
-# Scripts_template_Unity
-Quick codes for Unity3D
+Just download it and use in your project :) have fun!
