@@ -19,8 +19,6 @@ public class TextScript : MonoBehaviour
     {
         string writeThis = contentText;
         StartCoroutine(TypeSentence(writeThis));
-
-
     }
 
     // Update is called once per frame
@@ -40,7 +38,6 @@ public class TextScript : MonoBehaviour
         {
             yield return new WaitForSeconds(letterPause);
             introText.text += " " + array[i];
-
         }
     }
 
