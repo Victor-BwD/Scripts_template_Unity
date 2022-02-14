@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Object follow the mouse position and respect collisions
+
 public class //CLASS : MonoBehaviour
 {
     Vector3 mousePosition;
