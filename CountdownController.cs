@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+// A simple timer, will decrease in 1 each 1 sec
 
 public class CountdownController : MonoBehaviour
 {
