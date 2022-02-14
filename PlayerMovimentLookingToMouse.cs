@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Player will move looking to the mouse pointer, great for isometric games.
+
 public class PlayerMovimentLookingMouse : MonoBehaviour
 {
 
