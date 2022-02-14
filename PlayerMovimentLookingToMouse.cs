@@ -13,8 +13,6 @@ public class PlayerMovimentLookingMouse : MonoBehaviour
 
     public GameObject gameOverText;
 
-    //public bool isAlive = true;
-
 
     // Start is called before the first frame update
     void Start()
@@ -30,19 +28,6 @@ public class PlayerMovimentLookingMouse : MonoBehaviour
         float Zaxis = Input.GetAxis("Vertical");
 
         direction = new Vector3(Xaxis, 0, Zaxis);
-
-        
-
-        //transform.Translate(direction * speed * Time.deltaTime);
-
-        if (direction != Vector3.zero)
-        {
-            //anim.SetBool("Running", true);
-        }
-        else
-        {
-            //anim.SetBool("Running", false);
-        }
 
     }
 
