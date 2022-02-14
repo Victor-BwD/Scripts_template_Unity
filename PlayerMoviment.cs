@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Player move using rigidbody from Unity using AWSD or arrows, 
+// Player move using rigidbody from Unity using AWSD or arrows. Use in 3D games.
 
 public class PlayerMoviment : MonoBehaviour
 {
